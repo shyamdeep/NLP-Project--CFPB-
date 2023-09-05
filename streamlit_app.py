@@ -6,8 +6,6 @@
 
 import joblib
 import re
-from sklearn.neural_network import MLPClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
 import streamlit as st
 from lime.lime_text import LimeTextExplainer
 import streamlit.components.v1 as components
